@@ -1,0 +1,55 @@
+
+`com.example.progettoispw.SimpleQueries#deleteAllergies(Ljava/lang/String;Ljava/sql/Connection;)IÅ
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaó ó(%"1*™
+1Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaò ò(:–
+Õ
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaò ò(;
+sqljava.lang.String"__id*(&
+$DELETE FROM allergies WHERE Name = ?ﬂ‹
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaô ô(9 
+%0java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)’
+“
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaô ô(:"
+prepjava.sql.PreparedStatement"__id*"
+ 
+%0java.sql.PreparedStatementª∏
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaö ö(#
+
+%1void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+usernamejava.lang.String2setString(ILjava/lang/String;)∞
+≠
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaõ õ(
+%2java.io.PrintStream"__id*
+""öó
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaõ õ(
+
+%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%2java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)ˆÛ
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaú ú(#	
+%4int"+java.sql.PreparedStatement#executeUpdate()I*$
+"
+prepjava.sql.PreparedStatement2executeUpdate()"å
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaú ú($
+"":
+usernamejava.lang.String:
+connjava.sql.ConnectionB*"(
+&com.example.progettoispw.SimpleQueries

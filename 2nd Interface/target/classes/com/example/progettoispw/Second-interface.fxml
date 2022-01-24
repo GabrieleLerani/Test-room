@@ -26,7 +26,7 @@
          <center>
             <TabPane prefHeight="531.0" prefWidth="850.0" rotateGraphic="true" stylesheets="@../../../Style/TabPaneStyle.css" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
               <tabs>
-                  <Tab fx:id="homeTab" text="Home">
+                  <Tab text="Home">
                     <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
@@ -34,101 +34,35 @@
                                  <children>
                                     <Pane fx:id="paneHome" prefHeight="470.0" prefWidth="541.0">
                                        <children>
-                                          <VBox layoutX="39.0" layoutY="24.0" prefHeight="404.0" prefWidth="516.0">
+                                          <VBox alignment="CENTER" prefHeight="453.0" prefWidth="538.0" spacing="35.0">
                                              <children>
-                                                <HBox alignment="BOTTOM_CENTER" prefHeight="208.0" prefWidth="517.0" spacing="50.0">
+                                                <VBox alignment="CENTER" prefHeight="96.0" prefWidth="387.0">
                                                    <children>
-                                                      <Button fx:id="recipesHistoryButton" mnemonicParsing="false" onAction="#showRecipesHistory" prefHeight="200.0" prefWidth="200.0" stylesheets="@../../../Style/HomeStyle/MainButtonStyle.css" textFill="#9d9d9d36">
-                                                         <graphic>
-                                                            <ImageView fitHeight="167.0" fitWidth="174.0" pickOnBounds="true" preserveRatio="true">
-                                                               <image>
-                                                                  <Image url="@../../../images/history.png" />
-                                                               </image>
-                                                               <cursor>
-                                                                  <Cursor fx:constant="HAND" />
-                                                               </cursor>
-                                                            </ImageView>
-                                                         </graphic>
-                                                         <cursor>
-                                                            <Cursor fx:constant="HAND" />
-                                                         </cursor>
-                                                      </Button>
-                                                      <Button fx:id="alimentarPreferencesButton" mnemonicParsing="false" onAction="#showAlimentarPreferences" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 20; -fx-background-color: transparent;" stylesheets="@../../../Style/HomeStyle/MainButtonStyle.css">
-                                                         <graphic>
-                                                            <ImageView fitHeight="155.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
-                                                               <image>
-                                                                  <Image url="@../../../images/chicken.png" />
-                                                               </image>
-                                                               <cursor>
-                                                                  <Cursor fx:constant="HAND" />
-                                                               </cursor>
-                                                            </ImageView>
-                                                         </graphic>
-                                                         <cursor>
-                                                            <Cursor fx:constant="HAND" />
-                                                         </cursor>
+                                                      <Label fx:id="nameUser" alignment="CENTER" prefHeight="43.0" prefWidth="233.0" text="Hi user!">
+                                                         <font>
+                                                            <Font name="Century Gothic" size="35.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                                <Separator prefWidth="200.0" />
+                                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="30.0">
+                                                   <children>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Select action and go!">
+                                                         <font>
+                                                            <Font name="Century Gothic" size="25.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <ChoiceBox fx:id="homeActionBox" prefHeight="31.0" prefWidth="284.0" styleClass="button1" />
+                                                      <Button fx:id="go" mnemonicParsing="false" onAction="#handleButton" prefHeight="71.0" prefWidth="214.0" styleClass="button2" text="Go">
+                                                         <font>
+                                                            <Font size="33.0" />
+                                                         </font>
                                                       </Button>
                                                    </children>
-                                                   <VBox.margin>
-                                                      <Insets bottom="40.0" />
-                                                   </VBox.margin>
-                                                </HBox>
-                                                <HBox alignment="CENTER" prefHeight="208.0" prefWidth="517.0" spacing="60.0">
-                                                   <children>
-                                                      <Button fx:id="supermarketButton" mnemonicParsing="false" onAction="#showSupermarkets" prefHeight="200.0" prefWidth="200.0" stylesheets="@../../../Style/HomeStyle/MainButtonStyle.css">
-                                                         <graphic>
-                                                            <ImageView fitHeight="160.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
-                                                               <image>
-                                                                  <Image url="@../../../images/map.png" />
-                                                               </image>
-                                                               <cursor>
-                                                                  <Cursor fx:constant="HAND" />
-                                                               </cursor>
-                                                            </ImageView>
-                                                         </graphic>
-                                                         <cursor>
-                                                            <Cursor fx:constant="HAND" />
-                                                         </cursor>
-                                                      </Button>
-                                                      <Button fx:id="shoppingListButton" mnemonicParsing="false" onAction="#showShoppingList" prefHeight="179.0" prefWidth="191.0" stylesheets="@../../../Style/HomeStyle/MainButtonStyle.css">
-                                                         <graphic>
-                                                            <ImageView fitHeight="162.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
-                                                               <cursor>
-                                                                  <Cursor fx:constant="HAND" />
-                                                               </cursor>
-                                                               <image>
-                                                                  <Image url="@../../../images/list.png" />
-                                                               </image>
-                                                            </ImageView>
-                                                         </graphic>
-                                                         <cursor>
-                                                            <Cursor fx:constant="HAND" />
-                                                         </cursor>
-                                                      </Button>
-                                                   </children>
-                                                </HBox>
+                                                </VBox>
                                              </children>
                                           </VBox>
-                                          <Label layoutX="141.0" layoutY="7.0" text="History">
-                                             <font>
-                                                <Font name="Century Gothic" size="20.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="340.0" layoutY="7.0" text="Food preferences">
-                                             <font>
-                                                <Font name="Century Gothic" size="20.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="145.0" layoutY="423.0" text="Maps">
-                                             <font>
-                                                <Font name="Century Gothic" size="20.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="365.0" layoutY="423.0" text="Shopping list">
-                                             <font>
-                                                <Font name="Century Gothic" size="20.0" />
-                                             </font>
-                                          </Label>
                                        </children>
                                     </Pane>
                                  </children>
@@ -136,7 +70,7 @@
                            </children></AnchorPane>
                     </content>
                   </Tab>
-                <Tab fx:id="savedTab" text="Saved">
+                <Tab text="Saved">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="483.0" prefWidth="850.0">
                            <children>
@@ -161,7 +95,7 @@
                            </children></AnchorPane>
                   </content>
                 </Tab>
-                <Tab fx:id="planTab" text="Plan">
+                <Tab text="Plan">
                   <content>
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
@@ -263,7 +197,7 @@
                            </children></AnchorPane>
                   </content>
                 </Tab>
-                  <Tab fx:id="recipeTab" text="Recipe">
+                  <Tab text="Recipe">
                     <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
@@ -307,7 +241,7 @@
                            </children></AnchorPane>
                     </content>
                   </Tab>
-                  <Tab fx:id="settingsTab" text="Settings">
+                  <Tab text="Settings">
                     <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
@@ -527,7 +461,7 @@
                            </children></AnchorPane>
                     </content>
                   </Tab>
-                  <Tab fx:id="tutorialTab" text="Tutorial">
+                  <Tab text="Tutorial">
                     <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>

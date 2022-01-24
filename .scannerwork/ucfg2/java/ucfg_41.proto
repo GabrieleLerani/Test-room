@@ -1,0 +1,99 @@
+
+Ecom.example.progettoispw.FileInterDAO#readCurrent()Ljava/lang/String;~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java& &("1*ç
+1~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java' '()•¢
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java' '(
+%0java.io.File"java.io.File·
+ﬁ
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java' '(*
+%1"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%0java.io.File*
+UtenteCorrente.datœ
+Ã
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java' '(*.'
+%com.example.progettoispw.FileInterDAO"
+f"__id*
+
+%0java.io.Fileœ
+Ã
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java(5 ((6
+%2java.io.File"__id*0*.'
+%com.example.progettoispw.FileInterDAO"
+fª∏
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java(% ((4
+%3java.io.FileInputStream"java.io.FileInputStreamÒ
+Ó
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java(! ((7
+%4"/java.io.FileInputStream#<init>(Ljava/io/File;)V*
+
+%3java.io.FileInputStream*
+
+%2java.io.FileÕ
+ 
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java( ((8!
+fileInjava.io.FileInputStream"__id*
+
+%3java.io.FileInputStreamøº
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java)) )(:
+%5java.io.ObjectInputStream"java.io.ObjectInputStreamã
+à
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java)% )(B
+%6"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*!
+
+%5java.io.ObjectInputStream*#
+!
+fileInjava.io.FileInputStream”
+–
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java) )(C%
+objectInjava.io.ObjectInputStream"__id*!
+
+%5java.io.ObjectInputStreamåâ
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java* *(1
+%7java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*'
+%
+objectInjava.io.ObjectInputStream2readObject()⁄
+◊
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java* *(15'
+%com.example.progettoispw.FileInterDAO"
+
+username"__id*
+
+%7java.lang.ObjectÂ‚
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java+ +(
+
+%8void""java.io.ObjectInputStream#close()V*'
+%
+objectInjava.io.ObjectInputStream2close()ﬂ‹
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java, ,(
+
+%9void" java.io.FileInputStream#close()V*#
+!
+fileInjava.io.FileInputStream2close()€
+ÿ
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java- -(
+%10java.lang.String"__id*7*5'
+%com.example.progettoispw.FileInterDAO"
+
+username"õ
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/FileInterDAO.java- -(
+
+%10java.lang.StringB)'
+%com.example.progettoispw.FileInterDAO

@@ -1,0 +1,109 @@
+
+<com.example.progettoispw.Conn#connect()Ljava/sql/Connection;v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java ("8*Ë
+2v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java  !(/È
+Å
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java  !(/)
+com.example.progettoispw.Conn"
+stmt"__id*
+
+%9java.sql.Statement*
+1*ç
+6v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (BÉ
+Æ
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (B)
+com.example.progettoispw.Conn"
+conn"__id*
+
+%5java.sql.ConnectionÉ
+Æ
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java   (
+%6java.sql.Connection"__id*+*)
+com.example.progettoispw.Conn"
+conn”
+‘
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (  (I	
+%7int"__id*
+""”
+‘
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java! !(.	
+%8int"__id*
+""ž›
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java  !(/
+%9java.sql.Statement";java.sql.Connection#createStatement(II)Ljava/sql/Statement;*
+
+%6java.sql.Connection*
+	
+%7int*
+	
+%8int2createStatement(II)*
+2*Ó
+7v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java ( È
+Å
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java/ (5
+%2java.lang.String"__id*-*+
+com.example.progettoispw.Conn"
+DB_URLÆ
+Ã
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java7 (;
+%3java.lang.String"__id*+*)
+com.example.progettoispw.Conn"
+USERÆ
+Ã
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java= (A
+%4java.lang.String"__id*+*)
+com.example.progettoispw.Conn"
+PASSó
+ð
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (B
+%5java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+%2java.lang.String*
+
+%3java.lang.String*
+
+%4java.lang.String*
+6*Ø
+8v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (Ó
+Ð
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (+
+%0java.lang.String"__id*8*6
+com.example.progettoispw.Conn"
+DRIVER_CLASS_NAMEÿ
+ü
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java (,
+%1java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+
+%0java.lang.String*
+7*á
+1v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java) )(Ê
+Ç
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java) )(
+%12java.sql.Connection"__id*+*)
+com.example.progettoispw.Conn"
+conn"–
+v
+lC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/Conn.java) )(
+
+%12java.sql.ConnectionB!
+com.example.progettoispw.Conn

@@ -1,0 +1,75 @@
+
+Qcom.example.progettoispw.SearchDAO#checkCL(Ljava/lang/String;Ljava/lang/String;)I}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‘ ‘("7"8*Ö
+3}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‹ ‹(ıÚ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‹ ‹(!
+%6java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+CLjava.lang.String2toLowerCase()ÉÄ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‹ ‹(4
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String*
+
+advanced2equals(Ljava/lang/Object;)*
+1*å
+5}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java⁄ ⁄(ıÚ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java⁄ ⁄(!
+%4java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+CLjava.lang.String2toLowerCase()áÑ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java⁄ ⁄(8
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.String*
+intermediate2equals(Ljava/lang/Object;)*
+3
+1*à
+7}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaÿ ÿ(ıÚ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaÿ ÿ(!
+%2java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+CLjava.lang.String2toLowerCase()ÉÄ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaÿ ÿ(4
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.String*
+
+beginner2equals(Ljava/lang/Object;)*
+5
+1*ç
+8}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java◊ ◊(Ë
+Â
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java◊ ◊((
+%0"com.example.progettoispw.SearchDAO"__id*4*2$
+"com.example.progettoispw.SearchDAO"
+
+instanceò
+ï
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java◊ ◊(&	
+%1int"=com.example.progettoispw.SearchDAO#getCL(Ljava/lang/String;)I**
+(
+%0"com.example.progettoispw.SearchDAO*
+
+usernamejava.lang.String*
+1*å
+1}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaﬂ ﬂ("á
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaﬂ ﬂ(
+"":
+CLjava.lang.String:
+usernamejava.lang.StringB&$
+"com.example.progettoispw.SearchDAO

@@ -1,0 +1,64 @@
+
+dcom.example.progettoispw.SimpleQueries#insertCookingLevel(ILjava/lang/String;Ljava/sql/Connection;)I
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java? ?(("1*—
+1
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java@ @(GÚ
+×
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java@ @(H
+sqljava.lang.String"__id*53
+1UPDATE utenti SET CookingLevel=? WHERE Username=?ÜÙ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaA A(9 
+%0java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)Ò
+Ï
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaA A(:"
+prepjava.sql.PreparedStatement"__id*"
+ 
+%0java.sql.PreparedStatementøõ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaB B(
+
+%1void"&java.sql.PreparedStatement#setInt(II)V*$
+"
+prepjava.sql.PreparedStatement*2*
+""2
+setInt(II)¸µ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaC C(#
+
+%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+usernamejava.lang.String2setString(ILjava/lang/String;)­
+ª
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaD D(
+%3java.io.PrintStream"__id*
+""—”
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaD D(
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%3java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)óð
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaE E(#	
+%5int"+java.sql.PreparedStatement#executeUpdate()I*$
+"
+prepjava.sql.PreparedStatement2executeUpdate()"‰
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaE E($
+"":
+"":
+usernamejava.lang.String:
+connjava.sql.ConnectionB*"(
+&com.example.progettoispw.SimpleQueries

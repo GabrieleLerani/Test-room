@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -46,7 +47,11 @@ public class HistoryController {
             for (int i = 0; i < rbs.size(); i++) {
                 buttons.add(new Button(rbs.get(i).getName()));
                 buttons.get(i).setPrefSize(646, 50);
-                buttons.get(i).setLayoutY(i * 50);
+                buttons.get(i).setLayoutY(i * 65);
+                buttons.get(i).getStyleClass().add("button2");
+                buttons.get(i).setFont(Font.font("Century gothic",23));
+
+
                 int finalI = i;
                 buttons.get(i).setOnAction(new EventHandler<ActionEvent>() {
                     @Override

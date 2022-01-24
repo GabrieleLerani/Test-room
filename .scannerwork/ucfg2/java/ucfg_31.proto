@@ -1,0 +1,56 @@
+
+scom.example.progettoispw.SimpleQueries#getSpecFromName(Ljava/lang/String;Ljava/sql/Connection;)Ljava/sql/ResultSet;Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaî î(+"1*ﬂ
+1Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaï ï(;—
+Œ
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaï ï(<
+sqljava.lang.String"__id*)'
+%SELECT * FROM utenti where Username=?ﬂ‹
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javañ ñ(9 
+%0java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)’
+“
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javañ ñ(:"
+prepjava.sql.PreparedStatement"__id*"
+ 
+%0java.sql.PreparedStatementª∏
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaó ó(#
+
+%1void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+usernamejava.lang.String2setString(ILjava/lang/String;)∞
+≠
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaò ò(
+%2java.io.PrintStream"__id*
+""öó
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaò ò(
+
+%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%2java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)ñì
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaô ô("
+%4java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*$
+"
+prepjava.sql.PreparedStatement2executeQuery()"†
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaô ô(#
+
+%4java.sql.ResultSet:
+usernamejava.lang.String:
+connjava.sql.ConnectionB*"(
+&com.example.progettoispw.SimpleQueries

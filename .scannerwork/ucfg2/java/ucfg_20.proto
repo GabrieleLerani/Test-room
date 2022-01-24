@@ -1,0 +1,83 @@
+
+’com.example.progettoispw.SimpleQueries#insertImages(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;Ljava/io/InputStream;Ljava/sql/Connection;)I
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javas s(""1*ú
+1
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javat t(JÝ
+Ú
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javat t(K
+sqljava.lang.String"__id*86
+4INSERT INTO images(Nome, Chef, IMG) values (?, ?, ?)ÜÙ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javau u(9 
+%0java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)Ò
+Ï
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javau u(:"
+prepjava.sql.PreparedStatement"__id*"
+ 
+%0java.sql.PreparedStatement´±
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javav v(
+
+%1void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+namejava.lang.String2setString(ILjava/lang/String;)´±
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaw w(
+
+%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+chefjava.lang.String2setString(ILjava/lang/String;)ÊÇ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javax% x(2
+
+%3long"java.io.File#length()J*
+
+filejava.io.File2length()ØÕ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javax x(3
+
+%4void"Djava.sql.PreparedStatement#setBinaryStream(ILjava/io/InputStream;J)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+finjava.io.InputStream*
+
+
+%3long2(setBinaryStream(ILjava/io/InputStream;J)­
+ª
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javay y(
+%5java.io.PrintStream"__id*
+""—”
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javay y(
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%5java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)óð
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaz z(#	
+%7int"+java.sql.PreparedStatement#executeUpdate()I*$
+"
+prepjava.sql.PreparedStatement2executeUpdate()"‰
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaz z($
+"":
+namejava.lang.String:
+chefjava.lang.String:
+filejava.io.File:
+finjava.io.InputStream:
+connjava.sql.ConnectionB*"(
+&com.example.progettoispw.SimpleQueries

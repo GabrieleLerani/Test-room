@@ -58,10 +58,10 @@
       </VBox>
       <ScrollPane layoutX="100.0" layoutY="191.0" prefHeight="392.0" prefWidth="668.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.33333333333337">
          <content>
-            <AnchorPane fx:id="anchor" prefHeight="370.0" prefWidth="630.0" />
+            <AnchorPane fx:id="anchor" prefHeight="370.0" prefWidth="630.0" stylesheets="@../../../Style/MapsButtonStyle.css" />
          </content>
       </ScrollPane>
-      <Button fx:id="clear" layoutX="747.0" layoutY="147.0" mnemonicParsing="false" onAction="#clear" text="Clear">
+      <Button fx:id="clear" layoutX="747.0" layoutY="147.0" mnemonicParsing="false" onAction="#clear" styleClass="button1" stylesheets="@../../../Style/MapsButtonStyle.css" text="Clear">
          <font>
             <Font name="Century Gothic" size="15.0" />
          </font>

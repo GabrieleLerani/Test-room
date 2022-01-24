@@ -1,0 +1,7 @@
+organization=try1927
+projectKey=GabrieleLerani_Test-room
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.26268
+dashboardUrl=https://sonarcloud.io/dashboard?id=GabrieleLerani_Test-room
+ceTaskId=AX6MkKz8Eb3X64cbxEpR
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX6MkKz8Eb3X64cbxEpR

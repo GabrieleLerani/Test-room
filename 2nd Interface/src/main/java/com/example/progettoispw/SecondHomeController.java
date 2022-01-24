@@ -12,7 +12,6 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
@@ -20,7 +19,6 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.ByteArrayInputStream;
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -30,32 +28,9 @@ import java.util.ResourceBundle;
 public class SecondHomeController implements Initializable {
 
     @FXML
-    private Tab homeTab;
-    @FXML
-    private Tab savedTab;
-    @FXML
-    private Tab planTab;
-    @FXML
-    private Tab recipeTab;
-    @FXML
-    private Tab settingsTab;
-    @FXML
-    private Tab tutorialTab;
-
-
-    @FXML
     private VBox recipeBox;
     @FXML
     private VBox savedBox;
-
-    @FXML
-    private Button recipesHistoryButton;
-    @FXML
-    private Button supermarketButton;
-    @FXML
-    private Button shoppingListButton;
-    @FXML
-    private Button alimentarPreferencesButton;
 
     @FXML
     private Button breakfastButton;
@@ -69,6 +44,8 @@ public class SecondHomeController implements Initializable {
     @FXML
     private Button newPlanButton;
 
+    @FXML
+    private Button go;
 
     @FXML
     private TextField searchField;
@@ -77,18 +54,26 @@ public class SecondHomeController implements Initializable {
     private Label labelerr;
 
     @FXML
+    private Label nameUser;
+
+    @FXML
     private ChoiceBox<String> filterRecipeBox;
 
     @FXML
     private ChoiceBox<String> dayBox;
 
+    @FXML
+    private ChoiceBox<String> homeActionBox;
+
+
 
     private final String[] filter = {"Recipe","Ingredient","Time","Dish type"};
     private final String[] cookinglevel = {"Beginner","Intermediate","Advanced"};
     private final String[] days = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+    private final String[] action = {"Shopping list","Food preferences","Supermarket","History"};
 
 
-    private FileInterDAO filedao;
+    private final FileInterDAO filedao;
 
     private final SavedControllerA sca;
     private final SearchRecipeA sra;
@@ -116,6 +101,7 @@ public class SecondHomeController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        homeActionBox.getItems().addAll(action);
         filterRecipeBox.getItems().addAll(filter);
         cookinglevelBox.getItems().addAll(cookinglevel);
         dayBox.getItems().addAll(days);
@@ -131,6 +117,7 @@ public class SecondHomeController implements Initializable {
         passwordField.setText(login.getPass());
         emailchange.setText(login.getEmail());
 
+        nameUser.setText("Hi "+login.getUser());
 
         //INITIALIZE COOKING LEVEL
 
@@ -146,33 +133,38 @@ public class SecondHomeController implements Initializable {
         this.refreshSaved();
     }
 
-    @FXML
-    public void showRecipesHistory() throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("History.fxml")));
-        Stage window=(Stage) recipesHistoryButton.getScene().getWindow();
-        window.setScene(new Scene(root, 850, 594));
+    // CONTROLLER HOME PAGE
+    //CONTROLLER HOME PAGE
+
+    public void handleButton() throws IOException {
+        String selectedItem = homeActionBox.getSelectionModel().getSelectedItem();
+        switch (selectedItem){
+            case "History" -> {
+                Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("History.fxml")));
+                Stage window=(Stage) go.getScene().getWindow();
+                window.setScene(GeneralScene.getAdd(root));
+            }
+            case "Supermarket" -> {
+                Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Maps.fxml")));
+                Stage window=(Stage) go.getScene().getWindow();
+                window.setScene(new Scene(root, 850, 594));
+            }
+            case "Shopping list" -> {
+                Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("ShoppingList2.fxml")));
+                Stage window=(Stage) go.getScene().getWindow();
+                window.setScene(new Scene(root, 850, 594));
+            }
+            case "Food preferences" -> {
+                Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("FoodPreferences2.fxml")));
+                Stage window=(Stage) go.getScene().getWindow();
+                window.setScene(new Scene(root, 850, 594));
+            }
+
+            default -> throw new IllegalStateException("Unexpected value: " + selectedItem);
+        }
     }
 
-    @FXML
-    public void showAlimentarPreferences() throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("FoodPreferences2.fxml")));
-        Stage window=(Stage) alimentarPreferencesButton.getScene().getWindow();
-        window.setScene(new Scene(root, 850, 594));
-    }
 
-    @FXML
-    public void showSupermarkets() throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Maps.fxml")));
-        Stage window=(Stage) supermarketButton.getScene().getWindow();
-        window.setScene(new Scene(root, 850, 594));
-    }
-
-    @FXML
-    public void showShoppingList() throws IOException {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("ShoppingList2.fxml")));
-        Stage window=(Stage) shoppingListButton.getScene().getWindow();
-        window.setScene(new Scene(root, 850, 594));
-    }
 
     //CONTROLLER SEARCH
 

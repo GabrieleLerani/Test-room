@@ -1,0 +1,59 @@
+
+Ncom.example.progettoispw.SearchDAO#getAP(Ljava/lang/String;)Ljava/lang/String;}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaþ þ("7*Ä
+2}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java„ „(3º
+·
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java„ „(3
+apjava.lang.String"__id*
+
+%2java.lang.String*
+1*½
+4}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java„ „(³°
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java„ „(3
+%2java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
+
+rsjava.sql.ResultSet*
+AlimentarPreferences2getString(Ljava/lang/String;)*
+2*Š
+5}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‚ ‚(Jª
+§
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‚ ‚(J
+rsjava.sql.ResultSet"__id*
+""ÓÐ
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaƒ ƒ(
+%1boolean"java.sql.ResultSet#first()Z*
+
+rsjava.sql.ResultSet2first()*
+4*ß
+6}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‚ ‚(&Õ
+Ò
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.java‚D ‚(H
+%0java.sql.Connection"__id*0*.$
+"com.example.progettoispw.SearchDAO"
+conn*
+5*²
+7}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaÿ ÿ(¨
+¥
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaÿ ÿ(
+apjava.lang.String"__id*
+""*
+6*ž
+1}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaˆ ˆ("™
+}
+qC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SearchDAO.javaˆ ˆ(
+
+apjava.lang.String:
+usernamejava.lang.StringB&$
+"com.example.progettoispw.SearchDAO

@@ -1,0 +1,57 @@
+
+Ucom.example.progettoispw.WeeklyPlanDAO#checkCL(Ljava/lang/String;Ljava/lang/String;)IÅ
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaª ª("7*î
+3Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.java¡ ¡(˙˜
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.java¡ ¡(!
+%4java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+CLjava.lang.String2toLowerCase()àÖ
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.java¡ ¡(4
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.String*
+
+advanced2equals(Ljava/lang/Object;)*
+1*õ
+5Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaø ø(˙˜
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaø ø(!
+%2java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+CLjava.lang.String2toLowerCase()åâ
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaø ø(8
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.String*
+intermediate2equals(Ljava/lang/Object;)*
+3
+1*ó
+7Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaº º(˙˜
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaΩ Ω(
+%0java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*
+
+CLjava.lang.String2toLowerCase()àÖ
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaΩ Ω(.
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+
+beginner2equals(Ljava/lang/Object;)*
+5
+1*ñ
+1Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaƒ ƒ("å
+Å
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/WeeklyPlanDAO.javaƒ ƒ(
+"":
+CLjava.lang.String:
+usernamejava.lang.StringB*(
+&com.example.progettoispw.WeeklyPlanDAO

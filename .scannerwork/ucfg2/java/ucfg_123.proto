@@ -1,0 +1,55 @@
+
+Scom.example.progettoispw.AlimentarDAO#getPref(Ljava/lang/String;)Ljava/lang/String;~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.java> >("8*Œ
+5~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaB B(3‘
+—
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaB B(3/'
+%com.example.progettoispw.AlimentarDAO"
+AP"__id*
+
+%2java.lang.String‘
+—
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaC C(
+%3java.lang.String"__id*1*/'
+%com.example.progettoispw.AlimentarDAO"
+AP"ö
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaC C(
+
+%3java.lang.String*ø
+6~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaB B(¥±
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaB B(3
+%2java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
+
+rsjava.sql.ResultSet*
+AlimentarPreferences2getString(Ljava/lang/String;)*
+5*ç
+7~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.java@ @(J´
+®
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.java@ @(J
+rsjava.sql.ResultSet"__id*
+""‘—
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.javaA A(
+%1boolean"java.sql.ResultSet#first()Z*
+
+rsjava.sql.ResultSet2first()*
+6*‰
+8~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.java@ @(&Ÿ
+÷
+~
+tC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/AlimentarDAO.java@D @(H
+%0java.sql.Connection"__id*3*1'
+%com.example.progettoispw.AlimentarDAO"
+conn*
+7:
+usernamejava.lang.StringB)'
+%com.example.progettoispw.AlimentarDAO

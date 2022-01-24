@@ -1,0 +1,213 @@
+
+com.example.progettoispw.SimpleQueries#getRecipeFromTypeCLAPAll(Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)Ljava/sql/ResultSet;
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaî î(4"6*Â
+2‚
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaÿ ÿ(ª
+§
+‚
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaÿ ÿ(
+sqljava.lang.String"__id*€~
+|SELECT * FROM ricetteinserite where Type = ? AND Livello <= ? AND (Intolleranza = ? OR Intolleranza = ? OR Intolleranza = ?)àİ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java€ €(-!
+%11java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)Ö
+Ó
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java€ €(-"
+prepjava.sql.PreparedStatement"__id*#
+!
+%11java.sql.PreparedStatement¸µ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java (#
+%12void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+typejava.lang.String2setString(ILjava/lang/String;)üù
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java‚ ‚(
+%13void"&java.sql.PreparedStatement#setInt(II)V*$
+"
+prepjava.sql.PreparedStatement*2*
+""2
+setInt(II)¶³
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaƒ ƒ(!
+%14void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+APjava.lang.String2setString(ILjava/lang/String;)¬©
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java„ „(+
+%15void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+Vegetarian2setString(ILjava/lang/String;)§¤
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java… …(&
+%16void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*	
+Vegan2setString(ILjava/lang/String;)*
+1*÷
+3
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaø ø(|”
+‘
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaø ø(|
+sqljava.lang.String"__id*lj
+hSELECT * FROM ricetteinserite where Type = ? AND Livello <= ? AND (Intolleranza = ? OR Intolleranza = ?)ßÜ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaù ù(- 
+%6java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)Õ
+Ò
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaù ù(-"
+prepjava.sql.PreparedStatement"__id*"
+ 
+%6java.sql.PreparedStatement·´
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaú ú(#
+
+%7void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+typejava.lang.String2setString(ILjava/lang/String;)ûø
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaû û(
+
+%8void"&java.sql.PreparedStatement#setInt(II)V*$
+"
+prepjava.sql.PreparedStatement*2*
+""2
+setInt(II)µ²
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaü ü(!
+
+%9void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+APjava.lang.String2setString(ILjava/lang/String;)§¤
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaı ı(&
+%10void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*	
+Vegan2setString(ILjava/lang/String;)*
+1*°
+4
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java÷ ÷(›
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java÷ ÷(2
+%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*
+
+APjava.lang.String*
+
+Vegetarian2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+3*·
+5
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaò ò(fş
+û
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaò ò(f
+sqljava.lang.String"__id*VT
+RSELECT * FROM ricetteinserite where Type = ? AND Livello <= ? AND Intolleranza = ?ßÜ
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaó ó(- 
+%1java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*
+
+connjava.sql.Connection*
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)Õ
+Ò
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaó ó(-"
+prepjava.sql.PreparedStatement"__id*"
+ 
+%1java.sql.PreparedStatement·´
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaô ô(#
+
+%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+typejava.lang.String2setString(ILjava/lang/String;)ûø
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaõ õ(
+
+%3void"&java.sql.PreparedStatement#setInt(II)V*$
+"
+prepjava.sql.PreparedStatement*2*
+""2
+setInt(II)µ²
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaö ö(!
+
+%4void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*$
+"
+prepjava.sql.PreparedStatement*2*
+
+APjava.lang.String2setString(ILjava/lang/String;)*
+1*˜
+6
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaï ï(®
+«
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaï ï(
+sqljava.lang.String"__id*
+""¹
+¶
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javağ ğ("
+prepjava.sql.PreparedStatement"__id*
+""™–
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javañ ñ('
+%0boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*
+
+APjava.lang.String*	
+Vegan2$equalsIgnoreCase(Ljava/lang/String;)*
+4
+5*˜
+1
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java‡ ‡(±
+®
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java‡ ‡(
+%17java.io.PrintStream"__id*
+""œ™
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.java‡ ‡(
+%18void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%17java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)—”
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaˆ ˆ("
+%19java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*$
+"
+prepjava.sql.PreparedStatement2executeQuery()"¡
+
+uC:/Users/gabriele/Desktop/Test-room.git/trunk/2nd Interface/src/main/java/com/example/progettoispw/SimpleQueries.javaˆ ˆ(#
+
+%19java.sql.ResultSet:
+typejava.lang.String:
+"":
+APjava.lang.String:
+connjava.sql.ConnectionB*"(
+&com.example.progettoispw.SimpleQueries
