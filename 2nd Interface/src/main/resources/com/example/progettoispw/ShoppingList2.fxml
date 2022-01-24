@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="594.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoispw.ShoppingList2Controller">
+   <children>
+      <AnchorPane prefHeight="594.0" prefWidth="850.0">
+         <children>
+            <ImageView fitHeight="512.0" fitWidth="867.0" layoutX="1.0" layoutY="-350.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 180;">
+               <image>
+                  <Image url="@../../../images/green-back.png" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER_LEFT" prefHeight="112.0" prefWidth="850.0" spacing="55.0">
+               <children>
+                  <VBox alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="83.0">
+                     <children>
+                        <Button fx:id="gotohomeButton" mnemonicParsing="false" onAction="#gotoHome" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                           <graphic>
+                              <ImageView fitHeight="31.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_back_to_24px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Separator prefHeight="0.0" prefWidth="165.0" />
+                  <Label fx:id="settingslabel1" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Shopping list" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic" size="48.0" />
+                     </font>
+                  </Label>
+                  <Separator prefHeight="0.0" prefWidth="165.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="19.0" layoutY="161.0" prefHeight="434.0" prefWidth="850.0" spacing="40.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="434.0" prefWidth="244.0" spacing="20.0">
+                     <children>
+                        <TableView fx:id="listTable" prefHeight="344.0" prefWidth="244.0">
+                           <columns>
+                              <TableColumn fx:id="nameCol" prefWidth="145.0" text="Name" />
+                              <TableColumn fx:id="amountCol" prefWidth="100.0" text="Amount" />
+                           </columns>
+                        </TableView>
+                        <Button fx:id="saveListButton" mnemonicParsing="false" onAction="#handleSave" prefHeight="49.0" prefWidth="244.0" styleClass="button2" stylesheets="@../../../Style/MapsButtonStyle.css" text="Download">
+                           <font>
+                              <Font name="Century Gothic" size="20.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_download_32px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="434.0" prefWidth="202.0" spacing="15.0">
+                     <children>
+                        <TextField fx:id="nameandamountField" prefHeight="36.0" prefWidth="230.0" promptText="name and amount" stylesheets="@../../../Style/InvalidField.css">
+                           <font>
+                              <Font name="Century Gothic" size="19.0" />
+                           </font>
+                        </TextField>
+                        <Button mnemonicParsing="false" onAction="#addIngredient" prefHeight="27.0" prefWidth="161.0" styleClass="button1" stylesheets="@../../../Style/MapsButtonStyle.css" text="Add to list">
+                           <font>
+                              <Font name="Century Gothic" size="20.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#removeIngredient" prefHeight="27.0" prefWidth="161.0" styleClass="button3" stylesheets="@../../../Style/MapsButtonStyle.css" text="Remove">
+                           <font>
+                              <Font name="Century Gothic" size="20.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

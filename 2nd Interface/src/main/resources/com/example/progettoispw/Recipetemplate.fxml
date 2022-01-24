@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane hbarPolicy="NEVER" prefHeight="594.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoispw.RecipeTemplateController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="900.0" prefWidth="830.0">
+         <children>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="850.0" style="-fx-background-color: transparent;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="98.0" prefWidth="850.0" spacing="55.0" AnchorPane.bottomAnchor="496.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <VBox alignment="CENTER_RIGHT" prefHeight="112.0" prefWidth="83.0">
+                           <children>
+                              <Button fx:id="goBackButton" mnemonicParsing="false" onAction="#goBack" stylesheets="@../../../Style/ScaleButtonPressed.css">
+                                 <graphic>
+                                    <ImageView fitHeight="31.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icons8_back_to_32px_2.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                        <Separator prefHeight="47.0" prefWidth="211.0" />
+                        <Label fx:id="recipeTitle" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="Recipe">
+                           <font>
+                              <Font name="Century Gothic" size="48.0" />
+                           </font>
+                        </Label>
+                        <Separator prefHeight="8.0" prefWidth="219.0" />
+                        <Button fx:id="likeButton" mnemonicParsing="false" onAction="#setLike" stylesheets="@../../../Style/ButtonLoginStyle.css">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <graphic>
+                              <ImageView fitHeight="40.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_facebook_like_64px_1.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button fx:id="likeButton1" mnemonicParsing="false" prefHeight="67.0" prefWidth="70.0" style="-fx-background-color: transparent;" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" layoutX="38.0" layoutY="99.0" prefHeight="325.0" prefWidth="784.0" spacing="40.0" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="99.0">
+                     <children>
+                        <ImageView fx:id="iw" fitHeight="258.0" fitWidth="261.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../images/Carbonara.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="descriptionArea" strokeType="OUTSIDE" strokeWidth="0.0" text="text" wrappingWidth="478.13682293891907">
+                           <font>
+                              <Font name="Century Gothic" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="57.0" layoutY="450.0" prefHeight="150.0" prefWidth="734.0" spacing="40.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="150.0" prefWidth="193.0">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_time_32px_2.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="32.0" prefWidth="191.0" text="Cooking time">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookingTime" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="192.0" text="Label">
+                                 <font>
+                                    <Font name="Century Gothic" size="23.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="150.0" prefWidth="175.0">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_dinner_64px.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="32.0" prefWidth="188.0" text="Dish type">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="dishType" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="192.0" text="Label">
+                                 <font>
+                                    <Font name="Century Gothic" size="23.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="150.0" prefWidth="175.0">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_difficult_decision_64px.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="32.0" prefWidth="188.0" text="Difficult">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="difficult" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="192.0" text="Label">
+                                 <font>
+                                    <Font name="Century Gothic" size="23.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="150.0" prefWidth="175.0">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/icons8_person_32px.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="32.0" prefWidth="188.0" text="Serving">
+                                 <font>
+                                    <Font name="Century Gothic Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookingTime1111" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="192.0" text="1">
+                                 <font>
+                                    <Font name="Century Gothic" size="23.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <VBox fx:id="ingredientBox" alignment="TOP_CENTER" layoutX="-6.0" layoutY="584.0" prefHeight="354.0" prefWidth="839.0" spacing="20.0">
+                     <children>
+                        <Separator prefHeight="87.0" prefWidth="839.0">
+                           <padding>
+                              <Insets left="150.0" right="150.0" />
+                           </padding>
+                        </Separator>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredient:">
+                           <font>
+                              <Font name="Century Gothic" size="26.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <Separator layoutX="70.0" layoutY="442.0" prefHeight="10.0" prefWidth="693.0" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="prevRec" disable="true" layoutY="425.0" mnemonicParsing="false" onAction="#prev" opacity="0.0" style="-fx-background-color: #000000;" stylesheets="@../../../Style/ScaleButtonPressed.css">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/icons8_back_to_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="nextRec" disable="true" layoutX="785.0" layoutY="425.0" mnemonicParsing="false" onAction="#next" opacity="0.0" style="-fx-background-color: #000000;" stylesheets="@../../../Style/ScaleButtonPressed.css">
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+                     <image>
+                        <Image url="@../../../images/icons8_back_to_24px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
