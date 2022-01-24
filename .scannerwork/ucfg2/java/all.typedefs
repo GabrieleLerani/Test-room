@@ -1225,7 +1225,7 @@ gotoHome()6com.example.progettoispw.HistoryController#gotoHome()V@
 initialize()8com.example.progettoispw.HistoryController#initialize()V>
 clear()3com.example.progettoispw.HistoryController#clear()V 
 EventHandlerjava.lang.ObjectA
-1Lcom/example/progettoispw/HistoryController$1651;EventHandler—
+1Lcom/example/progettoispw/HistoryController$1824;EventHandler—
 )com.example.progettoispw.SavedControllerAjava.lang.Object?
 <init>()3com.example.progettoispw.SavedControllerA#<init>()VQ
 saved()Fcom.example.progettoispw.SavedControllerA#saved()Ljava/util/ArrayList;õ
@@ -1817,18 +1817,15 @@ checkCL(I)?com.example.progettoispw.SearchDAO#checkCL(I)Ljava/lang/String;È
 VsearchRecipe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)écom.example.progettoispw.SearchDAO#searchRecipe(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;Ò
 ZsearchRecipeType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ícom.example.progettoispw.SearchDAO#searchRecipeType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;k
 getAP(Ljava/lang/String;)Ncom.example.progettoispw.SearchDAO#getAP(Ljava/lang/String;)Ljava/lang/String;Z
-getCL(Ljava/lang/String;)=com.example.progettoispw.SearchDAO#getCL(Ljava/lang/String;)I‚
--com.example.progettoispw.SecondHomeControllerInitializablejava.lang.ObjectW
-showShoppingList()Acom.example.progettoispw.SecondHomeController#showShoppingList()VC
-logout()7com.example.progettoispw.SecondHomeController#logout()Vg
-showAlimentarPreferences()Icom.example.progettoispw.SecondHomeController#showAlimentarPreferences()V[
-showRecipesHistory()Ccom.example.progettoispw.SecondHomeController#showRecipesHistory()Ve
-appear_confirm_U_button()Hcom.example.progettoispw.SecondHomeController#appear_confirm_U_button()VW
-showSupermarkets()Acom.example.progettoispw.SecondHomeController#showSupermarkets()Võ
+getCL(Ljava/lang/String;)=com.example.progettoispw.SearchDAO#getCL(Ljava/lang/String;)Iª
+-com.example.progettoispw.SecondHomeControllerInitializablejava.lang.ObjectC
+logout()7com.example.progettoispw.SecondHomeController#logout()Ve
+appear_confirm_U_button()Hcom.example.progettoispw.SecondHomeController#appear_confirm_U_button()Võ
 4initialize(Ljava/net/URL;Ljava/util/ResourceBundle;)ccom.example.progettoispw.SecondHomeController#initialize(Ljava/net/URL;Ljava/util/ResourceBundle;)VO
 refreshSaved()=com.example.progettoispw.SecondHomeController#refreshSaved()Vk
 appear_confirm_Pass_button()Kcom.example.progettoispw.SecondHomeController#appear_confirm_Pass_button()VM
-setConfirm1()<com.example.progettoispw.SecondHomeController#setConfirm1()VI
+setConfirm1()<com.example.progettoispw.SecondHomeController#setConfirm1()VO
+handleButton()=com.example.progettoispw.SecondHomeController#handleButton()VI
 calculate():com.example.progettoispw.SecondHomeController#calculate()VM
 setConfirm2()<com.example.progettoispw.SecondHomeController#setConfirm2()VY
 addDynamicElement()Bcom.example.progettoispw.SecondHomeController#addDynamicElement()VK
@@ -1838,8 +1835,8 @@ ZsearchRecipeType(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/la
 initialize();com.example.progettoispw.SecondHomeController#initialize()V[
 gotoPremiumPayment()Ccom.example.progettoispw.SecondHomeController#gotoPremiumPayment()VE
 	changeU()8com.example.progettoispw.SecondHomeController#changeU()VD
-4Lcom/example/progettoispw/SecondHomeController$7004;EventHandlerE
-5Lcom/example/progettoispw/SecondHomeController$12199;EventHandler–
+4Lcom/example/progettoispw/SecondHomeController$7103;EventHandlerE
+5Lcom/example/progettoispw/SecondHomeController$12298;EventHandler–
 #com.example.progettoispw.PaymentDAOjava.lang.Object9
 <init>()-com.example.progettoispw.PaymentDAO#<init>()Vs
 %insertPremiumUser(Ljava/lang/String;)Jcom.example.progettoispw.PaymentDAO#insertPremiumUser(Ljava/lang/String;)Vg
