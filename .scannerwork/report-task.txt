@@ -3,5 +3,5 @@ projectKey=GabrieleLerani_Test-room
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.26843
 dashboardUrl=https://sonarcloud.io/dashboard?id=GabrieleLerani_Test-room
-ceTaskId=AX8CXeG4Nre5knqhA-U1
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX8CXeG4Nre5knqhA-U1
+ceTaskId=AX8DdJ89BHcPZ_PScmmC
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX8DdJ89BHcPZ_PScmmC
